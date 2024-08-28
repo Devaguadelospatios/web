@@ -1,0 +1,119 @@
+.post-meta-card {
+    width:100%;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.post-meta-card i {
+    margin-right: 8px;
+    margin-left: 20px;
+    color: #ff6f61;
+    /* Cambia este color según tu preferencia */
+}
+
+.post-meta-card .author-name,
+.post-meta-card span {
+    font-weight: 400;
+    color: #333333;
+    /* Cambia este color según tu preferencia */
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.process-details h2 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.archivo a{
+    font-size: 14px;
+    color: #686F83;
+}
+
+.archivo a:hover {
+    color: #ff6f61;
+}
+
+.process-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.process-table td {
+    padding: 5px;
+    border: none;
+}
+
+.process-table td:first-child {
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+/* Botón de aplicar */
+.apply-button {
+    background-color: #FF5B02;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.apply-button:hover {
+    background-color: #ffffff;
+    border: 1px solid #FF5B02;
+    color: #FF5B02;
+}
+.apply-button:focus{
+    background-color: #ffffff;
+    border: 1px solid #FF5B02;
+    color: #FF5B02;
+}
+
+
+/* Formulario de aplicar */
+.apply-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.apply-form input,
+.apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.apply-form input:hover {
+    border: 1px solid #FF5B02;
+}
+
+.apply-form input[type="submit"] {
+    background-color: #FF5B02;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.apply-form input[type="submit"]:hover {
+    background-color: #ffffff;
+    border: 1px solid #FF5B02;
+    color: #FF5B02;
+}
